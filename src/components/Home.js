@@ -15,9 +15,9 @@ function Home() {
           }}
           className="w-screen"
         >
-          <div className=" block" >
-            <h2 className=" mx-8 my-4 text-3xl text-center ">Choose the perfect design</h2>
-            <p className="text-center mx-8 ">
+          <div className=" absolute top-15 right-9">
+            <h2 className=" mx-20 pt-10 text-3xl">Choose the perfect design</h2>
+            <p className="w-1/3 mx-20 mt-5">
               Create a beautiful blog that fits your style. Choose from a
               selection of easy-to-use templates – all with flexible layouts and
               hundreds of background images – or design something new.
@@ -38,9 +38,9 @@ function Home() {
           }}
           className="w-screen"
         >
-          <div className="block">
-          <h2 className=" text-3xl text-center">Get a domain</h2>
-          <p className="text-1xl  text-center mt-4 ">
+          <div className="absolute bottom-15 right-9">
+          <h2 className=" text-3xl w-1/3 pt-7 mx-10 text-justify">Get a domain</h2>
+          <p className="text-1xl  text-justify mt-5 w-1/3 ">
             Give your blog the perfect home. Get a blogspot.com domain or buy a
             custom domain with just a few clicks.
           </p>
