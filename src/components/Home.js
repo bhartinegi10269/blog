@@ -3,13 +3,7 @@ import React from "react";
 function Home() {
   return (
     <>
-      <article className=" w-full" style={{
-            marginBottom: "20px", 
-            padding: "10px 20px", 
-            border: "1px solid rgb(145, 145, 145)",
-
-
-        }}>
+      <article class=" w-screen" >
         <div
           class="container"
           style={{
@@ -17,12 +11,13 @@ function Home() {
               "url(https://images.pexels.com/photos/2310604/pexels-photo-2310604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
             backgroundSize: "cover",
             height: "500px",
-            width: "100%"
+            
           }}
+          className="w-screen"
         >
-          <div className="text-center" >
-            <h2 className=" text-3xl">Choose the perfect design</h2>
-            <p className="w-1/2 text-justify mx-8">
+          <div className=" block" >
+            <h2 className=" mx-8 my-4 text-3xl text-center ">Choose the perfect design</h2>
+            <p className="text-center mx-8 ">
               Create a beautiful blog that fits your style. Choose from a
               selection of easy-to-use templates – all with flexible layouts and
               hundreds of background images – or design something new.
@@ -31,11 +26,7 @@ function Home() {
         </div>
       </article>
 
-      <article className="w-full" style={{
-            marginBottom: "20px", 
-            padding: "10px 20px", 
-            border: "1px solid rgb(145, 145, 145)",
-            marginRight: "10px"}}>
+      <article class="w-screen" >
         <div
           class="container"
           style={{
@@ -43,15 +34,17 @@ function Home() {
               "url(https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&w=600)",
             backgroundSize: "cover",
             height: "400px",
-            width: "100%",
             opacity: "1"
           }}
+          className="w-screen"
         >
-          <h2 className=" text-3xl ">Get a domain</h2>
-          <p className="text-1xl mt-5 text-justify w-1/3 ">
+          <div className="block">
+          <h2 className=" text-3xl text-center">Get a domain</h2>
+          <p className="text-1xl  text-center mt-4 ">
             Give your blog the perfect home. Get a blogspot.com domain or buy a
             custom domain with just a few clicks.
           </p>
+        </div>
         </div>
       </article>
     </>
