@@ -15,9 +15,9 @@ function Home() {
           className="w-screen"
         >
 
-          <div className=" flex w-screen text-center text-white">
+          <div className=" flex w-screen items-center text-black">
             <h2 className=" text-3xl ">Choose the perfect design</h2>
-            <p className="  text-justify">
+            <p className=" w-1/3 text-justify">
               Create a beautiful blog that fits your style. Choose from a
               selection of easy-to-use templates – all with flexible layouts and
               hundreds of background images – or design something new.
@@ -38,11 +38,11 @@ function Home() {
           }}
           className="w-screen"
         >
-          <div className="absolute bottom-15 right-9">
-            <h2 className=" text-3xl w-1/3 pt-7 mx-10 text-justify">
+          <div className="flex items-center w-screen">
+            <h2 className=" text-3xl w-1/3  text-justify">
               Get a domain
             </h2>
-            <p className="text-1xl  text-justify mt-5 w-1/3 ">
+            <p className="text-1xl  text-justify w-1/3 ">
               Give your blog the perfect home. Get a blogspot.com domain or buy
               a custom domain with just a few clicks.
             </p>
@@ -61,11 +61,11 @@ function Home() {
           }}
           className="w-screen"
         >
-          <div className="absolute bottom-15 right-9">
-            <h2 className=" text-3xl w-1/3 pt-7 mx-10 text-justify">
+          <div className="flex items-center w-screen">
+            <h2 className=" text-3xl w-1/3 text-justify">
               Earn money
             </h2>
-            <p className="text-1xl  text-justify mt-5 w-1/3 ">
+            <p className=" w-1/3 ">
               Get paid for your hard work. Google AdSense can automatically
               display relevant targeted ads on your blog so that you can earn
               income by posting about your passion.
